@@ -1,0 +1,22 @@
+@'
+# Go build
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Logs & CSV
+*.log
+*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+'@ | Out-File -Encoding utf8 .gitignore
