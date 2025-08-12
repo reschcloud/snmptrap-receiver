@@ -18,7 +18,10 @@ import (
 	"gopkg.in/natefinch/lumberjack.v2"
 )
 
-const serviceName = "SNMPTrapReceiverCommend"
+var version = "dev"
+$version="v0.1.1"
+
+const serviceName = "SNMPTrapReceiver"
 
 var elog debug.Log
 
@@ -154,7 +157,7 @@ func main() {
 				log.Fatalf("os.Executable() error: %v", err)
 			}
 			s, err := m.CreateService(serviceName, exePath, mgr.Config{
-				DisplayName: "SNMP Trap Receiver Service by Commend",
+				DisplayName: "SNMP Trap Receiver Service",
 				StartType:   mgr.StartAutomatic,
 			})
 			if err != nil {
