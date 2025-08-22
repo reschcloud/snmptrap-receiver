@@ -16,7 +16,7 @@
 .vscode/
 .idea/
 dist/
-sample_files
+sample_files/
 
 # Windows
 Thumbs.db
