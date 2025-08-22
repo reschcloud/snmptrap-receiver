@@ -26,3 +26,9 @@ Logs werden in `service.log` geschrieben.
 - Terminal als Admin öffnen und in den Ordner der EXE navigieren
 - Dienst stoppen mit `net stop SNMPTrapReceiver`
 - Dienst löschen mit `.\snmptrap_service.exe uninstall`
+
+---
+
+## Optional: SPL-Werte extrahieren mit `extract_spl.exe`
+
+`extract_spl.exe` im Ordner mit den generierten CSV-Files starten. Es wird eine neue CSV mit den konsolidierten und bereinigten Daten generiert.
