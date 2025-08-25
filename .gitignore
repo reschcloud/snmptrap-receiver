@@ -16,7 +16,6 @@
 .vscode/
 .idea/
 dist/
-sample_files/
 build/
 
 # Windows
