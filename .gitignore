@@ -22,3 +22,7 @@ sample_files/
 Thumbs.db
 Desktop.ini
 '@ | Out-File -Encoding utf8 .gitignore
+
+# pyinstaller
+extract_spl.spec
+build/

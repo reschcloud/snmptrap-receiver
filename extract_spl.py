@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 extract_spl.py
 Parst alle *.csv im aktuellen Verzeichnis (rekursiv optional per --recursive)
