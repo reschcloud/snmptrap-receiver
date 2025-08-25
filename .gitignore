@@ -17,6 +17,7 @@
 .idea/
 dist/
 sample_files/
+build/
 
 # Windows
 Thumbs.db
@@ -25,4 +26,3 @@ Desktop.ini
 
 # pyinstaller
 extract_spl.spec
-build/
