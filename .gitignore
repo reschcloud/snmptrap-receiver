@@ -25,4 +25,4 @@ Desktop.ini
 
 # pyinstaller
 extract_spl.spec
-build/
+build/add
